@@ -1,4 +1,4 @@
-# SOLID Principles for C# Developers
+# SOLID Principles for C# Developers Demo using Rating Engine...
 
 A sample application used to demonstrate SOLID principles for the Pluralsight course, [SOLID Principles for C# Developers](https://app.pluralsight.com/library/courses/csharp-solid-principles).
 

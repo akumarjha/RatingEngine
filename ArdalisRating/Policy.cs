@@ -28,5 +28,14 @@ namespace ArdalisRating
         public decimal Deductible { get; set; }
         #endregion
 
+
+        #region Insurance
+        public string Name { get; set; }
+        public int Cost { get; set; }
+        public DateTime EndDate { get; set; }
+        public int TotalCover { get; set; }
+        public DateTime StartDate { get; set; }
+        #endregion
+
     }
 }

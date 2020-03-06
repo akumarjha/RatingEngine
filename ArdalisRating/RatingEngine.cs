@@ -94,6 +94,22 @@ namespace ArdalisRating
                     Rating = baseRate;
                     break;
 
+                case PolicyType.Insurance:  
+                Console.WriteLine("Insurance Policy.. Started..");
+                if(policy.StartDate == DateTime.Now)
+                {
+                    Console.WriteLine("Looks like incurance policy taken today");
+                }
+                if(policy.Cost >= 5000)
+                {
+                    Console.WriteLine("bronz policy..");
+                }
+                if(policy.TotalCover >= 1000000)
+                {
+                    Console.WriteLine("Gold polict");
+                }
+                break;
+
                 default:
                     Console.WriteLine("Unknown policy type");
                     break;
